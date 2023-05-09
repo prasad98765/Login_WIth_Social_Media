@@ -43,7 +43,7 @@ class SignInForm extends Component {
           <input className="Remember_Me" type="checkbox" />
           <label> Remember me</label><br></br>
           <button className="Sigin_In_Lable">
-              Sign Up
+              Sign In
           </button>
           <div className="Other_Option">
               <label>---------------------- OR -----------------------</label>
@@ -54,6 +54,7 @@ class SignInForm extends Component {
                 onSuccess={this.onSuccess}
                 onFailure={this.onFailure}
                 isSignedIn= {true}
+                className="Google_Login"
             />
         </div>
       </>
