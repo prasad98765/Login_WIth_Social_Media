@@ -52,7 +52,6 @@ class SignInForm extends Component {
                 clientId={this.state.clientId}
                 buttonText="Sign in with Google"
                 onSuccess={this.onSuccess}
-                onFailure={this.onFailure}
                 isSignedIn= {true}
                 className="Google_Login"
             />
